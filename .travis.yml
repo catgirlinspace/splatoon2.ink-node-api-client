@@ -8,5 +8,5 @@ install:
   - npm install
 
 script:
-  - cd splatoon2.ink-node-api-client
+#  - cd splatoon2.ink-node-api-client
   - npm test
