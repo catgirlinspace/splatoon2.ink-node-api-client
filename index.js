@@ -1,11 +1,14 @@
+/*eslint-disable no-unused-params */
 'use strict';
 
 /**
- * Adds commas to a number
- * @param {number} number
- * @param {string} locale
- * @return {string}
+ * Gets the current battles
+ * @param {string} mode
+ * @return {object}
  */
-module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
+module.exports.getCurrentStages = function(mode) {
+    var data = {
+        apiVersion: "0.1.1"
+    };
+    return data;
 };
