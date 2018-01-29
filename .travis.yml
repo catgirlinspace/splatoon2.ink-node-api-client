@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - stable
+
+install:
+  - cd splatoon2.ink-node-api-client
+  - npm install
+
+script:
+  - cd splatoon2.ink-node-api-client
+  - npm test
