@@ -4,9 +4,10 @@ node_js:
   - stable
 
 install:
-  - cd splatoon2.ink-node-api-client
   - npm install
 
 script:
-#  - cd splatoon2.ink-node-api-client
-  - npm test
+  - npm run coverage
+
+# Send coverage data to Coveralls
+after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
