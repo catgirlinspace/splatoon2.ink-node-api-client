@@ -1,6 +1,6 @@
 {
   "name": "splatoon2.ink-node-api-client",
-  "version": "0.2.0-0",
+  "version": "0.2.0",
   "description": "Fetch data from the Splatoon2.ink API! ",
   "main": "index.js",
   "scripts": {
