@@ -9,4 +9,12 @@ describe('#api', function() {
         var data = client.getCurrentStages();
         expect(data.league.lobbyMode).to.equal('league');
     });
+    it('should give ranked mode', function() {
+        var data = client.getCurrentStages();
+        expect(data.ranked.lobbyMode).to.equal('ranked');
+    });
+    it('should give regular mode', function() {
+        var data = client.getCurrentStages();
+        expect(data.regular.lobbyMode).to.equal('regular');
+    });
 });
