@@ -16,7 +16,8 @@
     "mocha": "^5.0.0"
   },
   "dependencies": {
-    "axios": "^0.17.1"
+    "axios": "^0.17.1",
+    "lodash": "^4.17.4"
   },
   "repository": "https://github.com/Dog2puppy/splatoon2.ink-node-api-client.git",
   "private": false
