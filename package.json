@@ -14,5 +14,8 @@
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
   }
 }

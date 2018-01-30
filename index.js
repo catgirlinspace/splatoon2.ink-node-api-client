@@ -1,11 +1,15 @@
 'use strict';
 
 /**
- * Adds commas to a number
+ * Fetches API data
  * @param {number} number
  * @param {string} locale
  * @return {string}
  */
-module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
+module.exports.getCurrentStages = function(mode) {
+    if (mode) {
+      return;
+    }else{
+      return data;
+    }
 };
