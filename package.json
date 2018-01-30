@@ -17,5 +17,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1"
-  }
+  },
+  "repository": "https://github.com/Dog2puppy/splatoon2.ink-node-api-client.git",
+  "private": false
 }

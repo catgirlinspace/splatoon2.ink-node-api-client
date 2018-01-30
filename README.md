@@ -27,3 +27,8 @@ An API client for Splatoon2.ink.
 ## Contributing
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
+
+
+## Other
+
+I am not responsible for usage of this API. This is only a client, and not the API itself. Caching is not implemented. 

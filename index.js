@@ -19,14 +19,12 @@ module.exports.getCurrentStages = function() {
       var leagueDataStageB = res.data.league[0].stage_b.name;
       var leagueDataStart = res.data.league[0].start_time;
       var leagueDataEnd = res.data.league[0].end_time;
-    })
-    .catch(function (error) {
-        console.log(error);
     });
 
     var data = {
-        apiVersion: "0.1.1",
+        apiVersion: "0.2.0-0",
         league: {
+          lobbyMode: 'league',
           mode: leagueDataMode,
           stageA: leagueDataStageA,
           stageB: leagueDataStageB,
