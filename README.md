@@ -3,7 +3,7 @@ Splatoon2.ink Node API Client
 [![Build Status](https://travis-ci.org/Dog2puppy/splatoon2.ink-node-api-client.svg?branch=master)](https://travis-ci.org/Dog2puppy/splatoon2.ink-node-api-client)
 [![Coverage Status](https://coveralls.io/repos/github/Dog2puppy/splatoon2.ink-node-api-client/badge.svg?branch=master)](https://coveralls.io/github/Dog2puppy/splatoon2.ink-node-api-client?branch=master)
 [![npm](https://img.shields.io/npm/v/splatoon2.ink-node-api-client.svg)]()
-[![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/splatoon2.ink-node-api-client)
+[![npm](https://img.shields.io/npm/dt/splatoon2.ink-node-api-client.svg)](https://www.npmjs.com/package/splatoon2.ink-node-api-client)
 [![GitHub stars](https://img.shields.io/github/stars/Dog2puppy/splatoon2.ink-node-api-client.svg?style=social&label=Stars)](https://github.com/Dog2puppy/splatoon2.ink-node-api-client)
 [![](https://data.jsdelivr.com/v1/package/npm/splatoon2.ink-node-api-client/badge?style=rounded)](https://www.jsdelivr.com/package/npm/splatoon2.ink-node-api-client)
 
