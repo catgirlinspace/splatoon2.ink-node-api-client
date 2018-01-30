@@ -11,3 +11,7 @@ script:
 
 # Send coverage data to Coveralls
 after_script: "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
+
+notifications: 
+    webhooks: 
+        - http://krake.one/travis-ci/407618350911455232/8ssENZyEyrG_oyX3yAFuNBOLCoruVQTbAdiAn4rqOKc0OHgTZNP6DcWNCEIorDURKgrb

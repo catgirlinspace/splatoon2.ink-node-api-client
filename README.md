@@ -6,7 +6,7 @@ Splatoon2.ink Node API Client
 [![npm](https://img.shields.io/npm/dt/express.svg)](https://www.npmjs.com/package/splatoon2.ink-node-api-client)
 [![GitHub stars](https://img.shields.io/github/stars/Dog2puppy/splatoon2.ink-node-api-client.svg?style=social&label=Stars)](https://github.com/Dog2puppy/splatoon2.ink-node-api-client)
 
-An API client for the site Splatoon2.ink.
+An API client for Splatoon2.ink.
 
 ## Installation
 

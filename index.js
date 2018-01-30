@@ -1,15 +1,13 @@
 'use strict';
 
 /**
- * Fetches API data
- * @param {number} number
- * @param {string} locale
- * @return {string}
+ * Gets the current battles
+ * @param {string} mode
+ * @return {object}
  */
 module.exports.getCurrentStages = function(mode) {
-    if (mode) {
-      return;
-    }else{
-      return data;
-    }
+    var data = {
+        apiVersion: "0.1.1"
+    };
+    return data;
 };
