@@ -29,6 +29,7 @@ An API client for Splatoon2.ink.
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
 
+To install dependencies, run `yarn`. 
 
 ## Other
 
