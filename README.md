@@ -1,3 +1,4 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Dog2puppy/splatoon2.ink-node-api-client.png?columns=all)](https://waffle.io/Dog2puppy/splatoon2.ink-node-api-client?utm_source=badge)
 Splatoon2.ink Node API Client
 =========
 
