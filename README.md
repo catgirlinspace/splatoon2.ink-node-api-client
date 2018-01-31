@@ -9,6 +9,7 @@ Splatoon2.ink Node API Client
 [![](https://data.jsdelivr.com/v1/package/npm/splatoon2.ink-node-api-client/badge?style=rounded)](https://www.jsdelivr.com/package/npm/splatoon2.ink-node-api-client)
 [![Documentation Status](https://readthedocs.org/projects/splatoon2ink-node-api-client/badge/?version=latest)](http://splatoon2ink-node-api-client.readthedocs.io/en/latest/?badge=latest)
 [![Join the chat at https://gitter.im/splatoon2-ink-node-api-client/Lobby](https://badges.gitter.im/splatoon2-ink-node-api-client/Lobby.svg)](https://gitter.im/splatoon2-ink-node-api-client/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Dog2puppy/splatoon2.ink-node-api-client.png?columns=all)](https://waffle.io/Dog2puppy/splatoon2.ink-node-api-client?utm_source=badge)
 
 An API client for Splatoon2.ink.
 
