@@ -1,5 +1,5 @@
 /*eslint-disable unknown-require */
-'use strict';
+//'use strict';
 
 var fetch = require('node-fetch');
 var myGlobal = {};
