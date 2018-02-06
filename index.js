@@ -1,9 +1,9 @@
 /*eslint-disable unknown-require */
-/*globals regularObj:true rankedObj:true leagueObj:true*/
 'use strict';
 
 var fetch = require('node-fetch');
-var myData;
+var myGlobal = {};
+
 
 /**
  * Gets the current battles
@@ -30,10 +30,8 @@ module.exports.getCurrentStages = function() {
       var regularDataStageB = json.regular[0].stage_b.name;
       var regularDataStart = json.regular[0].start_time;
       var regularDataEnd = json.regular[0].end_time;
-      
       // object
-      
-      myData = {
+      myGlobal.splatoon2Data = {
         apiVersion: "0.3.1",
         league: {
           lobbyMode: 'league',
@@ -61,8 +59,6 @@ module.exports.getCurrentStages = function() {
         }
       };
     });
-
-
-    console.log(myData);
-    return myData;
+    console.log(myGlobal.splatoon2Data);
+    return myGlobal.splatoon2Data;
 };
