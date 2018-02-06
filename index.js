@@ -11,7 +11,7 @@ var _ = require('lodash');
  */
 module.exports.getCurrentStages = function() {
   var apiData = fetch('https://splatoon2.ink/data/schedules.json').then(res => res.json());
-  var data;
+  var myData;
   apiData.then(function (json) {
       //league
       var leagueDataMode = json.league[0].rule.name;
@@ -34,7 +34,7 @@ module.exports.getCurrentStages = function() {
       
       // object
       
-      data = {
+      myData = {
         apiVersion: "0.3.1",
         league: {
           lobbyMode: 'league',
@@ -64,6 +64,6 @@ module.exports.getCurrentStages = function() {
     });
 
 
-    console.log(data);
-    return data;
+    console.log(myData);
+    return myData;
 };
