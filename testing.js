@@ -2,4 +2,4 @@ var client = require('./index');
 
 var stages = client.getCurrentStages();
 
-console.log(stages);
+console.log(stages.ranked.lobbyMode);
