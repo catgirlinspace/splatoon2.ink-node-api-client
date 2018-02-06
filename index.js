@@ -2,7 +2,7 @@
 /*globals regularObj:true rankedObj:true leagueObj:true*/
 'use strict';
 
-var axios = require('axios');
+var fetch = require('fetch');
 var _ = require('lodash');
 
 /**
@@ -10,9 +10,9 @@ var _ = require('lodash');
  * @return {object}
  */
 module.exports.getCurrentStages = function() {
-  var data = {};
-  axios.get('https://splatoon2.ink/data/schedules.json')
-    .then(function (res) {
+  var apiData = fetch.get('https://splatoon2.ink/data/schedules.json');
+  
+  var objData = apiData.then(function (res) {
       //league
       var leagueDataMode = res.data.league[0].rule.name;
       var leagueDataStageA = res.data.league[0].stage_a.name;
@@ -34,39 +34,37 @@ module.exports.getCurrentStages = function() {
       
       // object
       
-      var apiVersion = "0.3.0";
-      var leagueObj = {
+      var data = {
+        apiVersion: "0.3.1",
+        league: {
           lobbyMode: 'league',
           mode: leagueDataMode,
           stageA: leagueDataStageA,
           stageB: leagueDataStageB,
           start: leagueDataStart,
           end: leagueDataEnd
-        };
-        var rankedObj = {
+        },
+        ranked: {
           lobbyMode: 'ranked',
           mode: rankedDataMode,
           stageA: rankedDataStageA,
           stageB: rankedDataStageB,
           start: rankedDataStart,
           end: rankedDataEnd
-        };
-        var regularObj = {
+        },
+        regular: {
           lobbyMode: 'regular',
           mode: regularDataMode,
           stageA: regularDataStageA,
           stageB: regularDataStageB,
           start: regularDataStart,
           end: regularDataEnd
-        };
-        _.merge(data, regularObj);
-        _.merge(data, rankedObj);
-        _.merge(data, leagueObj);
-        data = {
-            hi: 'hi'
-        };
+        }
+      };
+      return data;
     });
 
-    console.log(data);
-    return data;
+
+    console.log(objData);
+    return objData;
 };
