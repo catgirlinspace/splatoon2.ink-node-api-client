@@ -31,7 +31,7 @@ module.exports.getCurrentStages = function() {
       var regularDataStart = json.regular[0].start_time;
       var regularDataEnd = json.regular[0].end_time;
       // object
-      myGlobal.splatoon2Data = {
+      global.splatoon2Data = {
         apiVersion: "0.3.1",
         league: {
           lobbyMode: 'league',
@@ -59,6 +59,6 @@ module.exports.getCurrentStages = function() {
         }
       };
     });
-    console.log(myGlobal.splatoon2Data);
-    return myGlobal.splatoon2Data;
+    console.log(global.splatoon2Data);
+    return global.splatoon2Data;
 };
