@@ -10,6 +10,8 @@ Splatoon2.ink Node API Client
 [![Documentation Status](https://readthedocs.org/projects/splatoon2ink-node-api-client/badge/?version=latest)](http://splatoon2ink-node-api-client.readthedocs.io/en/latest/?badge=latest)
 [![Join the chat at https://gitter.im/splatoon2-ink-node-api-client/Lobby](https://badges.gitter.im/splatoon2-ink-node-api-client/Lobby.svg)](https://gitter.im/splatoon2-ink-node-api-client/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/Dog2puppy/splatoon2.ink-node-api-client.png?columns=all)](https://waffle.io/Dog2puppy/splatoon2.ink-node-api-client?utm_source=badge)
+[![Maintainability](https://api.codeclimate.com/v1/badges/155e0414926a17b0c24d/maintainability)](https://codeclimate.com/github/Dog2puppy/splatoon2.ink-node-api-client/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/155e0414926a17b0c24d/test_coverage)](https://codeclimate.com/github/Dog2puppy/splatoon2.ink-node-api-client/test_coverage)
 
 An API client for Splatoon2.ink.
 
