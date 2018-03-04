@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'node:8.9.4'
+    dockerfile {
+      filename 'FROM node:8.9.4'
     }
     
   }
