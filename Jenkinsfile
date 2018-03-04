@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    dockerfile {
-      filename 'FROM node:8.9.4'
-    }
-    
-  }
+  agent any
   stages {
     stage('Test') {
       agent {
